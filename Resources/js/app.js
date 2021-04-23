@@ -1,3 +1,4 @@
+
 AmCharts.makeChart("map",{
 	"type": "map",
 	"pathToImages": "http://www.amcharts.com/lib/3/images/",
@@ -28,7 +29,7 @@ AmCharts.makeChart("map",{
 				"color": "rgb(210, 210, 210)"
 			},
 			{
-				"id": "AL",
+				"id": "DE",
 				"title": "Alemania",
 				"color": "rgba(0, 24, 75, 1)"
 			},
