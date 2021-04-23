@@ -5,7 +5,7 @@
 }
 
 .section-label-countries{
-    position: absolute;
+    position: fixed;
     top: 80%;
     left: 5%;
 }
