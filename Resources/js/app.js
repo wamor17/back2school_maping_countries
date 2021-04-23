@@ -30,7 +30,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "DE",
-				"title": "Alemania",
+				"title": "Alemania (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -55,7 +55,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "AR",
-				"title": "Argentina",
+				"title": "Argentina (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -65,7 +65,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "AU",
-				"title": "Australia",
+				"title": "Australia (modelo convencional)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -85,7 +85,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "BE",
-				"title": "Bélgica",
+				"title": "Bélgica (modelo convencional)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -110,12 +110,12 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "BO",
-				"title": "Bolivia",
+				"title": "Bolivia (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
 				"id": "BR",
-				"title": "Brasil",
+				"title": "Brasil (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -140,7 +140,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "CA",
-				"title": "Canadá",
+				"title": "Canadá (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -170,7 +170,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "CL",
-				"title": "Chile",
+				"title": "Chile (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -185,12 +185,12 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "CO",
-				"title": "Colombia",
+				"title": "Colombia (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
 				"id": "CR",
-				"title": "Costa Rica",
+				"title": "Costa Rica (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -220,7 +220,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "EC",
-				"title": "Ecuador",
+				"title": "Ecuador (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -245,7 +245,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "ES",
-				"title": "España",
+				"title": "España (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -260,12 +260,12 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "FI",
-				"title": "Finlandia",
+				"title": "Finlandia (modelo convencional)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
 				"id": "FR",
-				"title": "Francia",
+				"title": "Francia (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -275,7 +275,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "GB",
-				"title": "Reino Unido",
+				"title": "Reino Unido (modelo híbrido)",
 				"color": "rgb(0, 24, 71, 1)"
 			},
 			{
@@ -320,7 +320,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "GT",
-				"title": "Guatemala",
+				"title": "Guatemala (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -360,7 +360,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "IE",
-				"title": "Irlanda",
+				"title": "Irlanda (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -395,7 +395,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "JP",
-				"title": "Japón",
+				"title": "Japón (modelo híbrido)",
 				"color": "rgb(0, 24, 71, 1)"
 			},
 			{
@@ -420,7 +420,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "KR",
-				"title": "Corea del Sur",
+				"title": "Corea del Sur (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -440,7 +440,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "IL",
-				"title": "Israel",
+				"title": "Israel (modelo híbrido)",
 				"color": "rgb(0, 24, 71, 1)"
 			},
 			{
@@ -560,12 +560,12 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "NL",
-				"title": "Países Bajos",
+				"title": "Países Bajos (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
 				"id": "NO",
-				"title": "Noruega",
+				"title": "Noruega (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -590,7 +590,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "PE",
-				"title": "Perú",
+				"title": "Perú (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -620,7 +620,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "PY",
-				"title": "Paraguay",
+				"title": "Paraguay (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -655,7 +655,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "SE",
-				"title": "Suecia",
+				"title": "Suecia (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -770,7 +770,7 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "US",
-				"title": "Estados Unidos",
+				"title": "Estados Unidos (modelo híbrido)",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
