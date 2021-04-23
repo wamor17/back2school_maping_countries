@@ -18,7 +18,7 @@ AmCharts.makeChart("map",{
 					"width": 80,
 					"height": 40,
 					"pixelMapperLogo": true,
-					"imageURL": "http://pixelmap.amcharts.com/static/img/logo-black.svg",
+					"imageURL": "http://pixelmap.amcharts.com/static/img/logo-black.svg no-active",
 					"url": "http://www.amcharts.com"
 				}
 			],
