@@ -223,7 +223,11 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "CR",
-				"title": "Costa Rica (modelo híbrido)",
+				"title": " ",
+				"balloonText": "Costa Rica",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Costa Rica</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td>Febrero 2021</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'>Yo me cuido, yo te cuido, la comunidad se cuida</td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Para poder abordar esa nueva realidad, se fortalece el modelo pedagógico, que tiene como meta los aprendizajes esperados y las habilidades, a partir de dimensiones como: maneras de pensar, formas de vivir en el mundo, formas de relacionarse con otras personas, herramientas para integrarse al mundo. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> Buen lavado de manos, uso de mascarillas, distanciamiento de 1,8 metros, limpieza de superficies, no compartir pertenencias y todo lo que está contemplado en los protocolos sanitarios. El regreso a clases incluye la alternancia, la cual se dará dependiendo de la capacidad de aforo y matrícula, en un formato 3/2 (asistir tres días al centro educativo y trabajar a distancia los dos días restantes) o 2/3 (asistir dos días a la institución y continuar con su proceso educativo a distancia tres días a la semana). </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "500",
+				"descriptionWindowBottom": "100",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -253,7 +257,11 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "EC",
-				"title": "Ecuador (modelo híbrido)",
+				"title": " ",
+				"balloonText": "Ecuador",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Ecuador</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td>Marzo 2021</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'>Aprendemos juntos en casa</td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> 30% de matricula en escuelas,  principalmente en zonas rurales donde ya se aplico un programa piloto. La jornada se mantendrá de manera regular de lunes a viernes de manera extendida, que son ocho horas de asistencia. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> Cubrebocas, zonas de lavado de manos, aplicación de gel antibacterial y no prestar material. </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "500",
+				"descriptionWindowBottom": "100",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -278,7 +286,11 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "ES",
-				"title": "España (modelo híbrido)",
+				"title": " ",
+				"balloonText": "España",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>España</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td>Enero 2021</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'>Aprendemos juntos en casa</td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Comunidad Autónoma de Madrid. Las escuelas han reabierto y cerrado ya varias ocasiones, el cierre de las mismas esta condicionado al desarrollo epidemiológico local. Los niños de 0 a 3 años asistirán todos los alumnos de manera presencial. Para el resto de educación básica se reduce el número de alumnos a grupos estables de máximo 20 personas. Modelo híbrido semipresencial. Modelos de rotación (burbujas de trabajo). </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> Se crea un coodinador COVID-19 por centro escolar. Se realizan pruebas PCR a niños y personal de educación al inicio del curso escolar. Se toma la temperatura a la entrada. Mascarilla obligatoria para los alumnos a partir de 6 años, cuando la pandemia evolucione de una manera favorable el límite de edad se elevará a 11 años. Se suministrará mascarillas y gel entre alumnos y profesores. </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "500",
+				"descriptionWindowBottom": "55",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -293,14 +305,20 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "FI",
-				"title": "Finlandia (modelo convencional)",
+				"title": " ",
+				"balloonText": "Finlandia",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Finlandia</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td>Mayo 2020</td> <td><strong>Modelo:</strong></td> <td>Normal</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'>No disponible</td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Solamente dos meses permanecieron cerradas las escuelas, retornaron la segunda quincena de mayo de forma escalonada y con restricciones de aforo. Finlandia reabrió el 14 de mayo las escuelas para educación primaria y secundaria a pesar del coronavirus. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> Los educandos fueron divididos por grupos separados unos de otros, se intensificaron las medidas de higiene y se escalonaron las clases, los horarios de comidas y las entradas y salidas de los colegios. </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "550",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
 				"id": "FR",
-				"title": "Francia",
-				"description": "<div class='countrie-description'> Fecha de retorno a clase: 00/00/0000 <br> Modelo: Híbrido <br> </div>",
-				"descriptionWindowWidth": "300",
+				"title": " ",
+				"balloonText": "Francia",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Francia</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td>Mayo 2020</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'>No disponible</td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> En el caso de los colegios, se tienen un protocolo más flexible, cuando el distanciamiento social sea materialmente imposible en las aulas, talleres, bibliotecas y cafeterías deja de ser obligatorio. Los espacios deben estar organizados de tal forma qu pueda haber la mayor distancia posible entre los alumnos . En los espacios al aire libre, por ejemplo, en los patios de recreación, esta queda descartada desde el maternal hasta la primaria. En preeescolar, el uso de tapabocas está prohibido, en primaria solo se tendrán tapabocas a disposición en caso de que un alumno presente síntomas y sea evacuado de las instalaciones. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> Distanciamiento de 2 metros entre grupos en la cafetería y el uso de mascarillas categoría 1 (quirúrgico) son requisito, dentro y fuera de cada establecimiento dentro y fuera de de cada establecimiento tanto para los estudiantes como para el personal. Solo a los alumnos de preescolar se les exime del uso de tapabocas. En cuanto al distanciamiento físico, se pide a la hora del almuerzo los alumnos de un mismo curso permanecen en grupo y no se mezclan con estudiantes de otros cursos. Se suma una ventilación de los espacios mucho más frecuente. </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "550",
+				"descriptionWindowBottom": "80",
+				"descriptionWindowLeft": "200",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -310,7 +328,12 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "GB",
-				"title": "Reino Unido (modelo híbrido)",
+				"title": " ",
+				"balloonText": "Reino Unido",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Reino Unido</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td> Marzo 2021</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'> Back to School </td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Enseñar un plan de estudios amplio y ambicioso en todas las materias. Cuando proceda, se debe priorizar el tiempo de enseñanza para abordar las lagunas más importantes en el conocimiento de los alumnos. Debe asegurarse de que la planificación del plan de estudios se base tanto en una evaluación de los puntos de partida de los alumnos como en las lagunas en sus conocimientos, y una comprensión de cuál es el contenido más crítico para la progresión. Para lograr esto, es posible que deba realizar modificaciones sustanciales en su plan de estudios y debe hacer un uso efectivo de la evaluación formativa regular evitando la introducción de sistemas de seguimiento innecesarios. Puede utilizar las flexibilidades existentes para crear tiempo para cubrir el contenido más importante en el que los alumnos aún no están seguros. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> La principal diferencia son las medidas de seguridad adicionales implementadas. Estos incluyen arranques y descansos escalonados, escritorios mirando hacia adelante, higiene adicional y ventilación. Los niños en las escuelas secundarias ahora también usarán cubiertas para la cara a menos que estén exentos o donde pueda dificultar el aprendizaje, como para los alumnos sordos. Además, cada alumno de la escuela secundaria tendrá tres pruebas en las primeras dos semanas, luego el personal y los alumnos harán pruebas semanales con regularidad </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "550",
+				"descriptionWindowBottom": "100",
+				"descriptionWindowLeft": "200",
 				"color": "rgb(0, 24, 71, 1)"
 			},
 			{
@@ -355,7 +378,11 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "GT",
-				"title": "Guatemala (modelo híbrido)",
+				"title": " ",
+				"balloonText": "Guatemala",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Guatemala</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td>Enero 2021</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'>Juntos por un regreso a clases seguro / Aprendo en casa y en clase</td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Cuenten con protocolos de bioseguridad  y que en las aulas haya materiales de apoyo psicosocial y guías de aprendizaje. Concientización con la comunidad educativa por parte del docente, apoyo emocional a estudiantes, organización física de ambientes seguros y las divisiones en burbujas (cohortes). </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> Mantener a las personas sintomáticas en casa, lavado de manos, distanciamiento físico y social, disponibilidad de agua, saneamiento, higiene y ventilación. El docente debe utilizar permanentemente y de forma correcta la mascarilla asegurándose de cubrir por completo la boca y nariz. </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "550",
+				"descriptionWindowBottom": "100",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -395,7 +422,12 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "IE",
-				"title": "Irlanda (modelo híbrido)",
+				"title": " ",
+				"balloonText": "Irlanda",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Irlanda</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td>Marzo 2021</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'>De vuelta a escuela</td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Se inicio con clases en los niveles primario y postprimario, el Gobierno ha decidido un regreso gradual de los estudiantes a la educación en la escuela. Etapas: El lunes 1 de marzo, los cuatro primeros grupos de clases del nivel primario - Infantes de primer y último año, primera y segunda clase - y los alumnos del Leaving Certificate de último año volverán a la oferta escolar. Esta fase también verá un regreso a la asistencia total para los niños en las escuelas especiales, así como para los niños en las clases preescolares de inicio temprano y las clases especiales de intervención temprana para los niños con autismo o discapacidad auditiva. El lunes 15 de marzo es la fecha límite para el regreso a la oferta escolar del resto de los niños de la escuela primaria - estudiantes de tercer a sexto curso y quinto año del Leaving Certificate. Esta fecha se revisará durante el período posterior al 1 de marzo. El lunes 12 de abril, después de las vacaciones de Semana Santa, es la fecha límite para el regreso a la educación escolar del resto de estudiantes de posprimaria, estudiantes de primero a cuarto año. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> Filtros escolares, estretegias y acuerdos con los transportistas esolares, listas/pasos para incorporarse con padres de familia y alumnos (Hoja de ruta al regreso a la escuelas) </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "550",
+				"descriptionWindowBottom": "100",
+				"descriptionWindowLeft": "200",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -440,7 +472,11 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "JP",
-				"title": "Japón (modelo híbrido)",
+				"title": " ",
+				"balloonText": "Japón",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Japón</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td>Junio 2020</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'>La educación en Japón más allá de la crisis del covid-19. No dejar a nadie atrás </td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Se le da preferencia a conocimientos fundamentales, se reduce la carga docente, se pierden actividades físicas, se asignan maestros e instructores adicionales. Se contratan más docentes (instructores y asistentes de maestros se contratan docentes retirados y estudianres de grados superiores por tiempo parcial). </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> Se toma la temperatura, se asigan fondos a cada escuela para que compre insumos (termómetro, desinfectantes, teléfonos celulares, etc.) </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "550",
+				"descriptionWindowBottom": "100",
 				"color": "rgb(0, 24, 71, 1)"
 			},
 			{
@@ -465,7 +501,11 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "KR",
-				"title": "Corea del Sur (modelo híbrido)",
+				"title": " ",
+				"balloonText": "Corea del Sur",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Corea del Sur</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td>Octubre 2020</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-blue'>info</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'>No disponible</td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Prioridad al último año de bachillerato. Se limita el número de estudiantes. Sistema rotatorio con clases presenciales y a distancia. Los escritorios están separados por láminas, los alumnos deben portar mascarillas permanentemente y mantener un metro entre ellos. Control de la temperatura corporal antes de entrar y continuar durante el día. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> En función del número de contagios locales. Cada colegio establece sus horarios. Un tercio es la capacidad máxima del aula. Ingreso ordenado por turnos. Los estudiantes deben pasar por un detector térmico. Los pupitres se separaron por medio de láminas y el uso del cubre bocas es obligatorio en todo momento. </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "500",
+				"descriptionWindowBottom": "100",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -490,7 +530,11 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "IL",
-				"title": "Israel (modelo híbrido)",
+				"title": " ",
+				"balloonText": "Israel",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Israel</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td>Febrero 2021</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'>Plan de sanidad</td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Se inició con alumnos de preescolar y de los primeros cuatro cursos de primaria. 20% del alumnado, el 80% restante (1,9 millones de estudiantes) seguirá con clases virtuales, y su vuelta se hará en varias fases para evitar un nuevo pico de infecciones. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> Es el segundo intento de reincoporación, la primera fue en agosto 2020. El Ministerio de Educación había dado instrucciones de seguridad: los cubrebocas debían ser usados por los estudiantes a partir de cuarto grado, las ventanas tenían que estar abiertas, debían lavarse las manos con frecuencia y los estudiantes tenían que mantener una distancia de dos metros siempre que fuera posible. Para la reincorporación a clases en el año 2021 se utilizará el modelo 10-4 desarrollado por los científicos Uri Alon y Ron Milo, y se basa en el período de latencia del virus, es decir, el lapso que transcurre entre que una persona se contagia y pasa a ser contagiosa para los demás. Ese tiempo se calcula en tres días y de ahí surge el modelo: 4 días en la escuela (de lunes a jueves) y 10 días de confinamiento, lo que da oportunidad para ingresar a un nuevo grupo de alumnos y se reduzca la posibilidad de segregación de la enfermedad </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "550",
+				"descriptionWindowBottom": "100",
 				"color": "rgb(0, 24, 71, 1)"
 			},
 			{
@@ -625,12 +669,20 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "NL",
-				"title": "Países Bajos (modelo híbrido)",
+				"title": " ",
+				"balloonText": "Países Bajos",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Países Bajos</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td> 8 de febrero, 1 de marzo 2021</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-blue'>info</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'> No disponible </td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Todos los alumnos reciben educación en la escuela.   Secundaria: todos asisten a la escuela al menos un día a la semana; Hay una atención especial para para los alumnos en exámenes, alumnos en un posición vulnerable y clases prácticas; los días en que están no están en la escuela  reciben educación a distancia Media Superior. La escuela está abierta para la realización de exámenes, educación práctica y para los estudiantes en un posición vulnerable. Para que una pasantía continúe depende del sector / industria. Ed. Sup: Los estudiantes reciben educación a distancia; sin embargo, la educación superior está abierto para tomar pruebas y exámenes, educación práctica y orientación de las personas vulnerables. Para que una pasantía continúe depende del sector / industria. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> 1. Los niños se quedan en casa cuando tienen un resfriado. Incluso si se trata de molestias menores, como estornudos o mocos. 2. Para los grupos 1 a 6, un padre / tutor puede traer y recoger al niño. Se quedan fuera de la escuela y mantienen una distancia de 1,5 metros. Usar mascarilla bucal. Los niños de los grupos 7 y 8 vienen a la escuela ellos mismos tanto como sea posible. 3. Para limitar el número de contactos, habrá horas de inicio y finalización escalonadas y descansos escalonados.4. Como siempre, el personal educativo se mantiene a una distancia de 1,5 metros entre sí. No es obligatorio mantener una distancia de 1,5 metros entre los estudiantes y entre los estudiantes y el personal. Siempre que sea posible, se crean rutas a pie de un solo sentido en la escuela. 5. </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "550",
+				"descriptionWindowBottom": "100",
+				"descriptionWindowLeft": "200",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
 				"id": "NO",
-				"title": "Noruega (modelo híbrido)",
+				"title": " ",
+				"balloonText": "Noruega",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Noruega</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td>Abril 2020</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'> No disponible </td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Plan de ingreso paulatino, iniciando con una de cada cuatro clases, de forma escalonada y con restricciones. Atienden a su Semáforo Nacional para la apertura o cierre de escuelas. Los niños y jóvenes con necesidades especiales pueden asistir físicamente a la escuela todos los días tanto en el nivel rojo como en el amarillo. Para los adolescentes de 16 años, grado 10 , y aquellos que están en la escuela secundaria (hasta 19 años), pueden optar por pasar clases a distancia. Y las escuelas pueden definir esta modalidad si el maestro está en cuarentena, o si hay un brote de virus en el centro educativo. Las universidades y colegios de formación profesional terciaria pasan clases virtuales y deben abstenerse de impartir conferencias para grandes grupos de estudiantes. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> Contacto mínimo, aulas con 15 educandos y bancas separadas, recomendaciones satinarias de lavado de manos. </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "550",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -655,7 +707,11 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "PE",
-				"title": "Perú (modelo híbrido)",
+				"title": " ",
+				"balloonText": "Perú",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Perú</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td> 15 de abril, 2021</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'> Sigamos aprendiendo </td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> El retorno debe ser seguro, es decir, que garantice un conjunto de medidas sanitarias, epidemiológicas y protocolos de prevención de bioseguridad, y flexible, que facilite adaptarse a los cambios tomando en cuenta las consideraciones pedagógicas, socioemocionales, de gestión escolar y los tipos de servicio. Se evaluan a los estudiantes por medio de una evaluación diagnóstica, el portafolio del estudiante, la información registrada en el SIAGIE y la carpeta de recuperación y pueden suceder dos escenarios: el estudiante supera los niveles de logro para su grado entonces continúa con las acciones según las competencias seleccionadas en el marco de la emergencia sanitaria; si el estudiante requiere de un tiempo adicional para alcanzar el nivel esperado se iniciará el periodo de consolidación para el desarrollo de competencias seleccionadas, estos cursos remediales durarán hasta junio 2021. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> En el marco de lo dispuesto en la RM 121-2021-MINEDU, comunica (el Minedu) que a partir del 19 de abril las IIEE y programas educativos podrán brindar el servicio educativo con algún nivel de presencialidad. El retorno será seguro, flexible, gradual y voluntario. “El Ministerio de Educación, en coordinación con los gobiernos regionales y locales, desarrolla acciones de articulación intergubernamental e intersectorial para asegurar las mejores condiciones de salud y seguridad para todos los estudiantes, docentes y administrativos. Así, niñas, niños y adolescentes seguirán aprendiendo con el objetivo de continuar con sus trayectorias educativas y su formación como ciudadanos </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "550",
+				"descriptionWindowBottom": "100",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -685,7 +741,11 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "PY",
-				"title": "Paraguay (modelo híbrido)",
+				"title": " ",
+				"balloonText": "Paraguay",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Paraguay</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td>Marzo 2021</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'> Retorno seguro a clases 2021 </td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Los padres através de una app deciden si sus hijos asisten de manera presencial o no. Para las clases presenciales se crean grupos que asistiran de manera intercalada. Cada grupo estará conformada por máximo 15 personas. Los días de clases presenciales serán por grupos. APP para control de los grupos, distanciamiento social en el aula, uso de cubre bocas obligatorio. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> Se crea una APP para el control de los asistentes de cada grupos escolar. Distanciamiento social en el aula, uso de cubre bocas obligatorio, higiene de manos mediante uso de gel antibacterial antes del ingreso, antes y despues del receso, antes y despues de manipulación de objetos y de consumir alimentos, ventilación: puertas  y ventanas siempre abiertas aun con aire acondicionado. Zonas de circulación señalizadas en el piso, horarios escalonados de entreda, recreo y salida </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "550",
+				"descriptionWindowBottom": "100",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -720,7 +780,11 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "SE",
-				"title": "Suecia (modelo híbrido)",
+				"title": " ",
+				"balloonText": "Suecia",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Suecia</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td> Septiembre 2021</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'> No disponible </td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> El país no confinó a su población y dejó abierta la educación infantil, primaria y secundaria, cerrando bachillerato y universidad.  Algunas ciudades implementaron un sistema híbrido, a libre elección. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> En Suecia no es obligatorio el uso de mascarillas, es por elección.  Mantienen el distanciamiento social entre estudiantes y el lavado constante de manos. </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "550",
+				"descriptionWindowLeft": "200",
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
@@ -856,9 +920,10 @@ AmCharts.makeChart("map",{
 			{
 				"id": "US",
 				"title": " ",
-				"balloonText": "Estados Unidos	",
-				"description": "<div class='countrie-description'> Fecha de retorno a clase: 00/00/0000 <br> Modelo: Híbrido <br> </div>",
-				"descriptionWindowWidth": "300",
+				"balloonText": "Estados Unidos",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Estados Unidos</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td>Febrero 2021</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'>Hoja de ruta para la reapertura de las escuelas</td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> El Centro para el Control y Prevención de Enfermedades (CDC por sus siglas en inglés) elaboró una estrategia operativa para la enseñanza segura de manera presencial en las escuelas K-12, a través de la integración de un paquete de componentes de prevención y control, estas escuelas van desde el preescolar hasta el 12vo grado, haciendo especial hincapié en que la enseñanza presencial debe tener prioridad sobre las actividades extracurriculares, incluidos los deportes y los eventos escolares, para minimizar el riesgo de transmisión en las escuelas y proteger el aprendizaje presencial </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> El Centros para el Control y la Prevención de Enfermedades de Estados Unidos recomienda medidas como el lavado de manos, la desinfección de las instalaciones escolares, la aplicación de pruebas de diagnóstico y el rastreo de contactos para detectar nuevos contagios, así como separar a las personas infectadas del resto de la gente en una escuela. </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "550",
+				"descriptionWindowBottom": "80",
 				"color": "rgba(0, 24, 75, 1)",
 			},
 			{
