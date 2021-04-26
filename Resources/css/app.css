@@ -119,4 +119,27 @@ td, th {
     color: rgb(135, 206, 235);
 }
 
+@media screen and (max-width: 850px){
 
+    .section-label-countries{
+        top: 10px;
+        right: 10px;
+        width: 250px;
+
+    }
+
+    .title-map{
+        font-size: 14px;
+    }
+
+    .blue-square, .gray-square, .white-square, .orange-square{
+        width: 10px;
+        height: 10px;
+        margin-right: 8px;
+    }    
+
+    .label-color-description{
+        font-size: 10px;
+    }
+
+}
