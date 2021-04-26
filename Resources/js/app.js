@@ -67,7 +67,10 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "AT",
-				"title": "Austria",
+				"title": " ",
+				"balloonText": "Austria",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Austria</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -157,7 +160,10 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "BZ",
-				"title": "Belice",
+				"title": " ",
+				"balloonText": "Belice",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Belice</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -185,7 +191,10 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "CH",
-				"title": "Suiza",
+				"title": " ",
+				"balloonText": "Suiza",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Suiza</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -233,21 +242,30 @@ AmCharts.makeChart("map",{
 			{
 				"id": "CU",
 				"title": "Cuba",
-				"color": "rgba(200, 200, 200, 1)"
+				"color": "rgba(255, 165, 0, 1)"
 			},
 			{
 				"id": "CZ",
-				"title": "República Checa",
+				"title": " ",
+				"balloonText": "República Checa",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>República Checa</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
 				"id": "DK",
-				"title": "Dinamarca",
+				"title": " ",
+				"balloonText": "Dinamarca",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Dinamarca</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
 				"id": "DO",
-				"title": "República Dominicana",
+				"title": " ",
+				"balloonText": "República",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>República Dominicana</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -343,7 +361,10 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "GF",
-				"title": "Guyana Francesa",
+				"title": " ",
+				"balloonText": "Guyana Francesa",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Guyana Francesa</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -373,7 +394,10 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "GR",
-				"title": "Grecia",
+				"title": " ",
+				"balloonText": "Grecia",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Grecia</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -392,12 +416,18 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "GY",
-				"title": "Guyana",
+				"title": " ",
+				"balloonText": "Guyana",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Guyana</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
 				"id": "HN",
-				"title": "Honduras",
+				"title": " ",
+				"balloonText": "Honduras",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Honduras</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -407,12 +437,18 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "HT",
-				"title": "Haití",
+				"title": " ",
+				"balloonText": "Haití",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Haití</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
 				"id": "HU",
-				"title": "Hungría",
+				"title": " ",
+				"balloonText": "Hungría",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Hungría</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -447,13 +483,16 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "IS",
-				"title": "Islandia",
+				"title": " ",
+				"balloonText": "Islandia",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Islandia</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
 				"id": "IT",
 				"title": "Italia",
-				"color": "rgba(200, 200, 200, 1)"
+				"color": "rgba(255, 165, 0, 1)"
 			},
 			{
 				"id": "JO",
@@ -462,12 +501,18 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "JM",
-				"title": "Jamaica",
+				"title": " ",
+				"balloonText": "Jamaica",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Jamaica</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
 				"id": "BS",
-				"title": "Bahamas",
+				"title": " ",
+				"balloonText": "Bahamas",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Bahamas</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -510,7 +555,10 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "PR",
-				"title": "Puerto Rico",
+				"title": " ",
+				"balloonText": "Puerto Rico",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Puerto Rico</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -554,22 +602,34 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "LT",
-				"title": "Lituania",
+				"title": " ",
+				"balloonText": "Lituania",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Lituania</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
 				"id": "LU",
-				"title": "Luxemburgo",
+				"title": " ",
+				"balloonText": "Luxemburgo",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Luxemburgo</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
 				"id": "TT",
-				"title": "Trinidad y Tobago",
+				"title": " ",
+				"balloonText": "Trinidad y Tobago",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Trinidad y Tobago</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
 				"id": "LV",
-				"title": "Letonia",
+				"title": " ",
+				"balloonText": "Letonia",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Letonia</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -635,7 +695,7 @@ AmCharts.makeChart("map",{
 			{
 				"id": "MX",
 				"title": "México",
-				"color": "rgba(200, 200, 200, 1)"
+				"color": "rgba(255, 165, 0, 1)"
 			},
 			{
 				"id": "MY",
@@ -664,7 +724,10 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "NI",
-				"title": "Nicaragua",
+				"title": " ",
+				"balloonText": "Nicaragua",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Nicaragua</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -692,7 +755,11 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "NZ",
-				"title": "Nueva Zelanda",
+				"title": " ",
+				"balloonText": "Nueva Zelanda",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Nueva Zelanda</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
+				"descriptionWindowBottom": "100",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -702,7 +769,10 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "PA",
-				"title": "Panamá",
+				"title": " ",
+				"balloonText": "Panamá",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Panamá</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -726,7 +796,10 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "PL",
-				"title": "Polonia",
+				"title": " ",
+				"balloonText": "Polonia",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Polonia</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -736,7 +809,10 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "PT",
-				"title": "Portugal",
+				"title": " ",
+				"balloonText": "Portugal",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Portugal</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -789,7 +865,10 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "SI",
-				"title": "Eslovenia",
+				"title": " ",
+				"balloonText": "Eslovenia",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Eslovenia</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -799,7 +878,10 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "SK",
-				"title": "Eslovaquia",
+				"title": " ",
+				"balloonText": "Eslovaquia",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Eslovaquia Checa</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -819,7 +901,10 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "SR",
-				"title": "Suriname",
+				"title": " ",
+				"balloonText": "Suriname",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Suriname</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -829,7 +914,10 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "SV",
-				"title": "El Salvador",
+				"title": " ",
+				"balloonText": "El Salvador",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>El Salvador</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -894,8 +982,56 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "TR",
-				"title": "Turquía",
+				"title": " ",
+				"balloonText": "Turquía",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Turquía</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
+			},
+			{
+				"id": "BN",
+				"title": "Brunei Darussalam",
+				"color": "rgba(255, 255, 255, 1)"
+			},
+			{
+				"id": "CY",
+				"title": "Cyprus",
+				"color": "rgba(255, 255, 255, 1)"
+			},
+			{
+				"id": "DJ",
+				"title": "Djibouti",
+				"color": "rgba(255, 255, 255, 1)"
+			},
+			{
+				"id": "KW",
+				"title": "Kuwait",
+				"color": "rgba(255, 255, 255, 1)"
+			},
+			{
+				"id": "LB",
+				"title": "Lebanon",
+				"color": "rgba(255, 255, 255, 1)"
+			},
+			{
+				"id": "PS",
+				"title": "Palestinian Territories",
+				"color": "rgba(255, 255, 255, 1)"
+			},
+			{
+				"id": "QA",
+				"title": "Qatar",
+				"color": "rgba(255, 255, 255, 1)"
+			},
+			{
+				"id": "TL",
+				"title": "Timor-Leste",
+				"color": "rgba(255, 255, 255, 1)"
+			},
+			{
+				"id": "VU",
+				"title": "Vanuatu",
+				"color": "rgba(255, 255, 255, 1)"
 			},
 			{
 				"id": "TW",
@@ -928,7 +1064,10 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "UY",
-				"title": "Uruguay",
+				"title": " ",
+				"balloonText": "Uruguay",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Uruguay</strong> <br> No considerado para el análisis </div>",
+				"descriptionWindowWidth": "280",
 				"color": "rgba(200, 200, 200, 1)"
 			},
 			{
@@ -939,7 +1078,7 @@ AmCharts.makeChart("map",{
 			{
 				"id": "VE",
 				"title": "Venezuela",
-				"color": "rgba(200, 200, 200, 1)"
+				"color": "rgba(255, 165, 0, 1)"
 			},
 			{
 				"id": "VN",

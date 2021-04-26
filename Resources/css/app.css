@@ -1,8 +1,14 @@
 
+body{
+    margin: 0;
+    background-color: rgba(208,208,208,0.12);
+}
+
 #map{
     position: absolute;
     width: 100%;
     height: 100%;
+    z-index: 1;
 }
 
 /*
@@ -21,6 +27,7 @@
     padding: 5px 20px 10px 20px;
     color: black;
     border: 1px solid rgb(150, 150, 150);
+    z-index: 10;
 }
 
 .title-map{
@@ -37,17 +44,28 @@
     display: flex;
 }
 
-.blue-square, .gray-square, .white-square{
+.blue-square, .gray-square, .white-square, .orange-square{
     width: 15px;
     height: 15px;
-    background: rgb(0,24,75);
     margin-right: 8px;
     border-radius: 3px;
     border: 1px solid rgb(150, 150, 150);
 }
 
+.blue-square{
+    background-color: rgb(0,24,75);
+}
+
 .gray-square{
     background-color: rgb(189, 189, 189);
+}
+
+.orange-square{
+    background-color: rgba(255, 165, 0, 1);
+}
+
+.white-square{
+    background-color: white;
 }
 
 .label-color-description{
@@ -62,10 +80,6 @@
     padding-bottom: 5px;
 }
 
-.white-square{
-    background-color: white;
-}
-
 .countries-description{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(255, 255, 255, 0.9);
@@ -74,7 +88,6 @@
     border: 1px solid rgb(150, 150, 150);
     border-radius: 5px;
     box-shadow: 0 2px 2px rgb(0 0 0 / 22%);
-    z-index: 100;
 }
 
 td, th {
