@@ -240,8 +240,11 @@ AmCharts.makeChart("map",{
 				"color": "rgba(0, 24, 75, 1)"
 			},
 			{
-				"id": "CU",
-				"title": "Cuba",
+				"id": "CU", 
+				"title": " ",
+				"balloonText": "Cuba",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Cuba</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td> Sin fecha </td> <td><strong>Modelo:</strong></td> <td>No aplica</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-blue'>info</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'> No disponible </td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Cuando se regrese, habrá en las escuelas presencia de médicos y enfermeras, horarios flexibles, horarios escalonados en universidades. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> Cuando se regrese, además de las medidas básicas: horarios de receso y almuerzo realizados de forma escalonada, no entrada de familiares ni extraños, prohibición de actos grupales, identificación de contagios en estudiantes. </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "500",
 				"color": "rgba(255, 165, 0, 1)"
 			},
 			{
@@ -491,7 +494,12 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "IT",
-				"title": "Italia",
+				"title": " ",
+				"balloonText": "Italia",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Italia</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td> Entre el 7 y el 30 de abril de 2021 </td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'> Decreto del Gobierno Italiano </td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Estaban incorporados, sin embargo el 06 de marzo se cerraron las escuelas por altas tasas de contagios. De acuerdo con el Comunicado de prensa del Consejo de Ministros n. 10, del 7 al 30 de abril de 2021 la realización en presencia de los servicios educativos para la infancia y el jardín de infancia, así como la actividad didáctica del primer ciclo de educación y el primer año de Bachillerato. Para los grados posteriores de educación, las actividades se confirman en presencia del 50% al 75% de la población estudiantil en la zona naranja mientras que en la zona roja las actividades relacionadas se realizan a distancia, garantizando en todo caso la posibilidad de Realización de actividades presenciales para los alumnos con discapacidad y necesidades educativas especiales. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> En regiones como Lombardía el regreso a clases presenciales se realizó con un aforo del 50% de los alumnos, escalonados en dos tandas: un 35% entró a las 8:00 am, y el restante 15% entró a las 9:30am, esto para evitar aglomeraciones. Sin embargo, el gobierno italiano decretó la habilitación para el regreso a clases en todo el país con presencia de entre el 50% y el 75% de la capacidad, siguiendo medidas de limpieza e higiene, dentro de las cuales se resalta el uso de mascarilla obligatorio, mantener medidas de distanciamiento social y la limpieza de los salones y el material de las escuelas. </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "650",
+				"descriptionWindowBottom": "100",
+				"descriptionWindowLeft": "200",
 				"color": "rgba(255, 165, 0, 1)"
 			},
 			{
@@ -694,7 +702,11 @@ AmCharts.makeChart("map",{
 			},
 			{
 				"id": "MX",
-				"title": "México",
+				"title": " ",
+				"balloonText": "México",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>México</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td> Sin fecha </td> <td><strong>Modelo:</strong></td> <td>No aplica</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'> No disponible, son pilotajes principalmente en Educ. Superior y ENMS </td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> El regreso a clases en México dependerá de tres condiciones: cuando la entidad se encuentre en semáforo de riesgo epidémico en verde, cuando el personal educativo esté vacunado y siempre que el regreso a la actividad presencial se realice de forma voluntaria, lo que decidirán, en conjunto, madres, padres de familia y autoridades estatales. Se contempla la creación de una nueva asignatura llamada Vida Saludable que busca repercutir en el estilo de vida y los patrones de consumo de los mexicanos. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> En las escuelas se deberá de cumplir el uso obligatorio de cubrebocas, la sana distancia, el lavado frecuente de manos, la suspensión de ceremonias. Además la asistencia a clases será de forma escalonada, por lo que algunos alumnos acudirán los días lunes y miércoles y otros los martes y jueves. Mientras que los días viernes podrán acudir para regularización. </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "550",
+				"descriptionWindowBottom": "100",
 				"color": "rgba(255, 165, 0, 1)"
 			},
 			{
@@ -1076,8 +1088,11 @@ AmCharts.makeChart("map",{
 				"color": "rgba(255, 255, 255, 1)"
 			},
 			{
-				"id": "VE",
-				"title": "Venezuela",
+				"id": "VE", 
+				"title": " ",
+				"balloonText": "Venezuela",
+				"description": "<div class='countries-description'> <strong class='title-country-table'>Venezuela</strong> <table> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td> Sin fecha </td> <td><strong>Modelo:</strong></td> <td>No aplica</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-blue'>info</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-blue'>info</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'> Plan Cada Familia Una Escuela y Plan Universidad en Casa </td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> No disponible </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> No disponible </td> </tr> </tbody> </table> </div>",
+				"descriptionWindowWidth": "550",
 				"color": "rgba(255, 165, 0, 1)"
 			},
 			{
