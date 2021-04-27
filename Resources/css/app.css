@@ -1,7 +1,7 @@
 
 body{
     margin: 0;
-    background-color: rgba(208,208,208,0.12);
+    background-color: rgba(148, 204, 244, 0.2);
 }
 
 #map{
@@ -81,7 +81,7 @@ body{
     padding-bottom: 5px;
 }
 
-.countries-description{
+.countries-description, .countries-no-analysis-description{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(255, 255, 255, 0.9);
     padding: 10px 20px 10px 20px;
@@ -119,17 +119,18 @@ td, th {
     color: rgb(135, 206, 235);
 }
 
-@media screen and (max-width: 850px){
+@media screen and (max-width: 1000px){
 
     .section-label-countries{
         top: 10px;
         right: 10px;
         width: 250px;
-
+        border-radius: 2px;
     }
 
     .title-map{
-        font-size: 14px;
+        font-size: 12px;
+        margin-bottom: 6px;
     }
 
     .blue-square, .gray-square, .white-square, .orange-square{
@@ -140,6 +141,24 @@ td, th {
 
     .label-color-description{
         font-size: 10px;
+    }
+
+    .countries-no-analysis-description, .ammapDescriptionWindow{
+        width: 150px !important;
+    }
+
+    .countries-no-analysis-description{
+        margin-right: 0px;
+        padding: 5px 10px 0px 10px;
+    }
+
+    .title-country-table{
+        font-size: 14px;
+    }
+
+    .no-consider-to-analysis{
+        font-size: 10px;
+        margin-bottom: -8px;
     }
 
 }
