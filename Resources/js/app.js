@@ -569,7 +569,7 @@ polygonSeries.data = [
         "description": " <strong class='title-country-table'>Japón</strong> <table id='table-country-description'> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td>Junio 2020</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'>La educación en Japón más allá de la crisis del covid-19. No dejar a nadie atrás </td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Se le da preferencia a conocimientos fundamentales, se reduce la carga docente, se pierden actividades físicas, se asignan maestros e instructores adicionales. Se contratan más docentes (instructores y asistentes de maestros se contratan docentes retirados y estudianres de grados superiores por tiempo parcial). </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> Se toma la temperatura, se asigan fondos a cada escuela para que compre insumos (termómetro, desinfectantes, teléfonos celulares, etc.) </td> </tr> </tbody> </table> </div>",
         "descriptionWindowWidth": "550",
         "descriptionWindowBottom": "100",
-        "color": "rgb(0, 24, 71, 1)"
+        "color": "rgba(0, 24, 71, 1)"
     },
     {
         "id": "KE",
@@ -637,7 +637,7 @@ polygonSeries.data = [
         "description": " <strong class='title-country-table'>Israel</strong> <table id='table-country-description'> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td>Febrero 2021</td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'>Plan de sanidad</td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Se inició con alumnos de preescolar y de los primeros cuatro cursos de primaria. 20% del alumnado, el 80% restante (1,9 millones de estudiantes) seguirá con clases virtuales, y su vuelta se hará en varias fases para evitar un nuevo pico de infecciones. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> Es el segundo intento de reincoporación, la primera fue en agosto 2020. El Ministerio de Educación había dado instrucciones de seguridad: los cubrebocas debían ser usados por los estudiantes a partir de cuarto grado, las ventanas tenían que estar abiertas, debían lavarse las manos con frecuencia y los estudiantes tenían que mantener una distancia de dos metros siempre que fuera posible. Para la reincorporación a clases en el año 2021 se utilizará el modelo 10-4 desarrollado por los científicos Uri Alon y Ron Milo, y se basa en el período de latencia del virus, es decir, el lapso que transcurre entre que una persona se contagia y pasa a ser contagiosa para los demás. Ese tiempo se calcula en tres días y de ahí surge el modelo: 4 días en la escuela (de lunes a jueves) y 10 días de confinamiento, lo que da oportunidad para ingresar a un nuevo grupo de alumnos y se reduzca la posibilidad de segregación de la enfermedad </td> </tr> </tbody> </table> </div>",
         "descriptionWindowWidth": "550",
         "descriptionWindowBottom": "100",
-        "color": "rgb(0, 24, 71, 1)"
+        "color": "rgba(0, 24, 71, 1)"
     },
     {
         "id": "LK",
@@ -1284,7 +1284,6 @@ homeButton.parent = chart.zoomControl;
 homeButton.insertBefore(chart.zoomControl.plusButton);
 chart.zoomStep = 2;
 chart.zoomControl.slider.height = 100;
-
 
 
 

@@ -54,7 +54,7 @@ body{
 }
 
 .blue-square{
-    background-color: rgb(0,24,75);
+    background-color: rgb(0, 24, 75);
 }
 
 .gray-square{
@@ -159,7 +159,7 @@ td, th {
 
     background: rgba(255, 255, 255, 0.4);
     font-size: 12px;
-    width: 130px;
+    width: 250px;
     padding: 5px;
     text-align: center;
 }
