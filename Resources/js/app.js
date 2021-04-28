@@ -399,7 +399,7 @@ polygonSeries.data = [
         "descriptionWindowWidth": "550",
         "descriptionWindowBottom": "100",
         "descriptionWindowLeft": "200",
-        "color": "rgb(0, 24, 71, 1)"
+        "color": "rgba(0, 24, 75, 1)"
     },
     {
         "id": "GE",
@@ -556,7 +556,7 @@ polygonSeries.data = [
         "descriptionWindowWidth": "650",
         "descriptionWindowBottom": "100",
         "descriptionWindowLeft": "200",
-        "color": "rgba(255, 165, 0, 1)"
+        "color": "rgba(0, 24, 75, 1)",
     },
     {
         "id": "JO",
@@ -1257,34 +1257,34 @@ polygonSeries.data = [
 var polygonTemplate = polygonSeries.mapPolygons.template;
 
 polygonTemplate.stroke = am4core.color("rgba(108, 108, 108, 1)");
-polygonTemplate.tooltipText = "{balloonText}";
+polygonTemplate.tooltipText = "{balloonText}"
+
 polygonTemplate.propertyFields.fill = "color";
 polygonTemplate.fillOpacity = 0.9;
 polygonTemplate.description = "{description}";
+
+polygonTemplate.descriptionWindowBottom = "{descriptionWindowBottom}";
+polygonTemplate.descriptionWindowLeft = "{descriptionWindowLeft}";
+polygonTemplate.descriptionWindowWidth = "{descriptionWindowWidth}";
 
 var hoverState = polygonTemplate.states.create("hover");
 hoverState.properties.fillOpacity = 1;
 hoverState.properties.tooltipColor = am4core.color("rgba(255, 255, 255, 0.8)");
 
 // Capturamos el evento "click" sobre un país
-
 polygonTemplate.events.on("hit", function(ev) {
     var data = ev.target.dataItem.dataContext;
     var innerHTML = "<h3>" + data.balloonText + " (" + data.id  + ")</h3>";
 
-    if( data.description.search("No considerado para el análisis") == -1 ){
+    if( data.color != "rgba(255, 255, 255, 1)" ){
         $('.country-description').html(data.description);
         $('.country-name').text(data.balloonText);
         $('#ShowCountryInformation').modal('open');
+    }else{
+        console.log('No identificado');
     }
 
     console.log(innerHTML);
-});
-
-$('.close-modal-icon').on('click', function(){
-    console.log('click en cerrar');
-//    $('#ShowCountryInformation').close();
-//    $('#ShowCountryInformation').close();
 });
 
 // Remove Antarctica
