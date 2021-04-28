@@ -126,7 +126,7 @@ td, th {
 }
 
 #ShowCountryInformation{
-    width: 60% !important;
+    width: 40% !important;
     z-index: 100;
     top: 30px;
 }
@@ -141,7 +141,7 @@ td, th {
 }
 
 .close-modal-icon{
-    position: absolute;
+    position: fixed !important;
     top: 10px;
     right: 10px;
     color: black !important;
@@ -180,12 +180,18 @@ td, th {
 
 /* Estilos para el modal */
     .modal{
-        
         max-height: 80% !important;
     }
 
     #ShowCountryInformation{
-        width: 75% !important;
+        width: 60% !important;
+    }
+
+    .close-modal-icon{
+        position: fixed !important;
+        top: 10px;
+        right: 10px;
+        color: black !important;
     }
 
     .section-label-countries{

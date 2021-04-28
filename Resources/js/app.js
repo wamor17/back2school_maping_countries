@@ -14,29 +14,11 @@ chart.fontSize = 15;
 chart.color = "#E3E4E5";
 chart.backgroundAlpha = 1;
 
-// Zoom control
-chart.zoomControl = new am4maps.ZoomControl();
-
-chart.zoomControl.zoomControlEnabled  = true;
-chart.zoomControl.homeButtonEnabled   = true;
-chart.zoomControl.panControlEnabled   = false;
-chart.zoomControl.right               = 38;
-chart.zoomControl.bottom              = 30;
-chart.zoomControl.minZoomLevel        = 0.25;
-chart.zoomControl.gridHeight          = 100;
-chart.zoomControl.gridAlpha           = 0.1;
-chart.zoomControl.gridBackgroundAlpha = 0;
-chart.zoomControl.gridColor           = "#FFFFFF";
-chart.zoomControl.draggerAlpha        = 1;
-chart.zoomControl.buttonCornerRadius  = 2;
-
 // Create map polygon series
 var polygonSeries = chart.series.push(new am4maps.MapPolygonSeries());
 
 // Make map load polygon (like country names) data from GeoJSON
 polygonSeries.useGeodata = true;
-//polygonSeries.areasSettings.lineColor = "rgba(108, 108, 108, 1)";
-
 polygonSeries.data = [
     {
         "id": "AE",
@@ -552,7 +534,7 @@ polygonSeries.data = [
         "id": "IT",
         "title": " ",
         "balloonText": "Italia",
-        "description": " <strong class='title-country-table'>Italia</strong> <table id='table-country-description'> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td> Entre el 7 y el 30 de abril de 2021 </td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'> Decreto del Gobierno Italiano </td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Estaban incorporados, sin embargo el 06 de marzo se cerraron las escuelas por altas tasas de contagios. De acuerdo con el Comunicado de prensa del Consejo de Ministros n. 10, del 7 al 30 de abril de 2021 la realización en presencia de los servicios educativos para la infancia y el jardín de infancia, así como la actividad didáctica del primer ciclo de educación y el primer año de Bachillerato. Para los grados posteriores de educación, las actividades se confirman en presencia del 50% al 75% de la población estudiantil en la zona naranja mientras que en la zona roja las actividades relacionadas se realizan a distancia, garantizando en todo caso la posibilidad de Realización de actividades presenciales para los alumnos con discapacidad y necesidades educativas especiales. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> En regiones como Lombardía el regreso a clases presenciales se realizó con un aforo del 50% de los alumnos, escalonados en dos tandas: un 35% entró a las 8:00 am, y el restante 15% entró a las 9:30am, esto para evitar aglomeraciones. Sin embargo, el gobierno italiano decretó la habilitación para el regreso a clases en todo el país con presencia de entre el 50% y el 75% de la capacidad, siguiendo medidas de limpieza e higiene, dentro de las cuales se resalta el uso de mascarilla obligatorio, mantener medidas de distanciamiento social y la limpieza de los salones y el material de las escuelas. </td> </tr> </tbody> </table> </div>",
+        "description": " <strong class='title-country-table'>Italia</strong> <table id='table-country-description'> <tbody> <tr> <td><strong>Fecha de regreso a clases:</strong></td> <td> 3 de mayo de 2021 </td> <td><strong>Modelo:</strong></td> <td>Híbrido</td> </tr> <tr> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Reincorporación voluntaria</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Reincorporación gradual</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-green'>check</i></div> <div class='check-value-country'> Docentes vacunados</div> </div> </td> <td> <div class='label_countries_check'> <div><i class='small material-icons icon-color-red'>close</i></div> <div class='check-value-country'> Alumnos vacunados</div> </div> </td> </tr> <tr> <td><strong>Nombre de la estrategia:</strong></td> <td colspan='3'> Decreto del Gobierno Italiano </td> </tr> <tr> <td><strong>Actividades presenciales</strong></td> <td colspan='3'> Estaban incorporados, sin embargo el 06 de marzo se cerraron las escuelas por altas tasas de contagios. De acuerdo con el Comunicado de prensa del Consejo de Ministros n. 10, del 7 al 30 de abril de 2021 la realización en presencia de los servicios educativos para la infancia y el jardín de infancia, así como la actividad didáctica del primer ciclo de educación y el primer año de Bachillerato. Para los grados posteriores de educación, las actividades se confirman en presencia del 50% al 75% de la población estudiantil en la zona naranja mientras que en la zona roja las actividades relacionadas se realizan a distancia, garantizando en todo caso la posibilidad de Realización de actividades presenciales para los alumnos con discapacidad y necesidades educativas especiales. </td> </tr> <tr> <td><strong>Aforos y filtros sanitarios:</strong> </td> <td colspan='3'> En regiones como Lombardía el regreso a clases presenciales se realizó con un aforo del 50% de los alumnos, escalonados en dos tandas: un 35% entró a las 8:00 am, y el restante 15% entró a las 9:30am, esto para evitar aglomeraciones. Sin embargo, el gobierno italiano decretó la habilitación para el regreso a clases en todo el país con presencia de entre el 50% y el 75% de la capacidad, siguiendo medidas de limpieza e higiene, dentro de las cuales se resalta el uso de mascarilla obligatorio, mantener medidas de distanciamiento social y la limpieza de los salones y el material de las escuelas. </td> </tr> </tbody> </table> </div>",
         "descriptionWindowWidth": "650",
         "descriptionWindowBottom": "100",
         "descriptionWindowLeft": "200",
@@ -1255,43 +1237,53 @@ polygonSeries.data = [
 
 // Configure series
 var polygonTemplate = polygonSeries.mapPolygons.template;
-
 polygonTemplate.stroke = am4core.color("rgba(108, 108, 108, 1)");
 polygonTemplate.tooltipText = "{balloonText}"
 
 polygonTemplate.propertyFields.fill = "color";
 polygonTemplate.fillOpacity = 0.9;
 polygonTemplate.description = "{description}";
-
 polygonTemplate.descriptionWindowBottom = "{descriptionWindowBottom}";
 polygonTemplate.descriptionWindowLeft = "{descriptionWindowLeft}";
 polygonTemplate.descriptionWindowWidth = "{descriptionWindowWidth}";
-
-var hoverState = polygonTemplate.states.create("hover");
-hoverState.properties.fillOpacity = 1;
-hoverState.properties.tooltipColor = am4core.color("rgba(255, 255, 255, 0.8)");
 
 // Capturamos el evento "click" sobre un país
 polygonTemplate.events.on("hit", function(ev) {
     var data = ev.target.dataItem.dataContext;
     var innerHTML = "<h3>" + data.balloonText + " (" + data.id  + ")</h3>";
+    console.log(innerHTML);
 
     if( data.color != "rgba(255, 255, 255, 1)" ){
         $('.country-description').html(data.description);
         $('.country-name').text(data.balloonText);
         $('#ShowCountryInformation').modal('open');
     }else{
-        console.log('No identificado');
+        console.log('No pertenece a la OCDE o AL');
     }
 
-    console.log(innerHTML);
 });
 
 // Remove Antarctica
 polygonSeries.exclude = ["AQ"];
 
+// Zoom control
+chart.zoomControl = new am4maps.ZoomControl();
 
+var homeButton = new am4core.Button();
+homeButton.events.on("hit", function() {
+    chart.goHome();
+});
 
+homeButton.icon = new am4core.Sprite();
+homeButton.padding(7, 5, 7, 5);
+homeButton.width = 30;
+homeButton.icon.path =
+  "M16,8 L14,8 L14,16 L10,16 L10,10 L6,10 L6,16 L2,16 L2,8 L0,8 L8,0 L16,8 Z M16,8";
+homeButton.marginBottom = 10;
+homeButton.parent = chart.zoomControl;
+homeButton.insertBefore(chart.zoomControl.plusButton);
+chart.zoomStep = 2;
+chart.zoomControl.slider.height = 100;
 
 
 
