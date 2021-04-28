@@ -1,8 +1,4 @@
 
-$(document).ready(function(){
-    $('.modal').modal();
-});
-
 var chart = am4core.create("map", am4maps.MapChart);
 
 // Global configuration
@@ -1266,25 +1262,23 @@ var hoverState = polygonTemplate.states.create("hover");
 hoverState.properties.fillOpacity = 1;
 hoverState.properties.tooltipColor = am4core.color("rgba(255, 255, 255, 0.8)");
 
-// Capturamos el evento "click" sobre un país
-
 polygonTemplate.events.on("hit", function(ev) {
     var data = ev.target.dataItem.dataContext;
     var innerHTML = "<h3>" + data.balloonText + " (" + data.id  + ")</h3>";
+    var modal = document.getElementById("ShowCountryInformation");
 
     if( data.description.search("No considerado para el análisis") == -1 ){
         $('.country-description').html(data.description);
         $('.country-name').text(data.balloonText);
-        $('#ShowCountryInformation').modal('open');
+        modal.style.display = "block";
     }
 
     console.log(innerHTML);
 });
 
-$('.close-modal-icon').on('click', function(){
-    console.log('click en cerrar');
-//    $('#ShowCountryInformation').close();
-//    $('#ShowCountryInformation').close();
+$('#description-countries-close-modal').on('click', function(){
+    var modal = document.getElementById("ShowCountryInformation");
+    modal.style.display = "none";
 });
 
 // Remove Antarctica
