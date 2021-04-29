@@ -1238,8 +1238,10 @@ polygonSeries.data = [
 // Configure series
 var polygonTemplate = polygonSeries.mapPolygons.template;
 polygonTemplate.stroke = am4core.color("rgba(108, 108, 108, 1)");
-polygonTemplate.tooltipText = "{balloonText}"
+polygonTemplate.tooltipText = "{balloonText}";
+polygonTemplate.tooltipColor    
 
+//polygonTemplate.tooltipHTML = "<div class='countries-description'><b>{balloonText}</b><br> Some text more text blah <br>OK let's try even longer text how it goes<br>No? <br>Still no<br>Still no<br>Still no<br>Still no<br></div>";
 polygonTemplate.propertyFields.fill = "color";
 polygonTemplate.fillOpacity = 0.9;
 polygonTemplate.description = "{description}";
@@ -1250,7 +1252,7 @@ polygonTemplate.descriptionWindowWidth = "{descriptionWindowWidth}";
 // Capturamos el evento "click" sobre un país
 polygonTemplate.events.on("hit", function(ev) {
     var data = ev.target.dataItem.dataContext;
-    var innerHTML = "<h3>" + data.balloonText + " (" + data.id  + ")</h3>";
+    var innerHTML = data.balloonText + " (" + data.id  + ")";
     console.log(innerHTML);
 
     if( data.color != "rgba(255, 255, 255, 1)" ){
